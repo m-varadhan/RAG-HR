@@ -1,0 +1,22 @@
+# ---- Core app ----
+python-dotenv>=1.0.1
+
+# ---- LangChain stack ----
+langchain>=0.2.16
+langchain-core>=0.2.40
+langchain-community>=0.2.16
+langchain-openai>=0.1.25
+langchain-text-splitters>=0.2.4
+
+# ---- OpenAI client (used by langchain-openai) ----
+openai>=1.40.0
+tiktoken>=0.7.0
+
+# ---- Vector store ----
+chromadb>=0.5.5
+
+# ---- PDF loading ----
+pypdf>=4.3.1
+
+# ---- Frontend ----
+streamlit>=1.36.0
